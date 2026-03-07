@@ -25,13 +25,11 @@ class Program
         {
             Console.WriteLine("Your Grade is B+");
         }
-        
+
         else if (grade >= 80)
         {
             Console.WriteLine("Your Grade is B");
         }
-
-       
 
         else if (grade >= 70)
         {
