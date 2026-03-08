@@ -2,6 +2,8 @@ using System;
 
 using System.Collections.Generic;
 
+using System.Linq;
+
 class Program
 {
     static void Main(string[] args)
@@ -15,10 +17,14 @@ class Program
         Console.Write("Enter number: ");
         int number = int.Parse(Console.ReadLine());
 
-        if (number != 0)
+        if (number == 0)
+        break;
+       
         {
             numbers.Add(number);
         }
+
+        
 
         int sum = numbers.Sum();
   
