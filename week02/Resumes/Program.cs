@@ -1,11 +1,11 @@
 using System;
+using System.Collections.Generic;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the Resumes Project.");
-
+       
         Job job1 = new Job();
         Job job2 = new Job();
 
@@ -19,7 +19,19 @@ class Program
         job2._startYear = "2022";
         job2._endYear = "2023";
 
-        job1.DisplayJobDetails();
-        job2.DisplayJobDetails();
+        //  job1.DisplayJobDetails();
+        //  job2.DisplayJobDetails();
+
+        Resume myResume = new Resume();
+        myResume._name = "Allison Rose";
+
+        myResume._jobs.Add(job1);
+        myResume._jobs.Add(job2);
+
+        myResume.DisplayResumeDetails();
+      
+
+
+
     }
 }
