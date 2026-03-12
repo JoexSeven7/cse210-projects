@@ -7,7 +7,7 @@ class Program
         Console.WriteLine("Hello World! This is the Exercise5 Project.");
 
 
-        static void DisplayWelcome()
+     static void DisplayWelcome()
     {
         Console.WriteLine("Welcome To The Program!");
 

@@ -1,0 +1,45 @@
+in C# the  standard is to use TitleCase for class and method names, and to use _underscoreCamelCase for our member variable names.
+
+
+
+Important part to focus on
+
+The name, the attributes(member variables), and the behaviors(methods)
+
+Class: Person 
+attributes:
+* _givenName : string
+
+* _familyName : string
+
+Behaviors:
+* ShowEasternName() : void
+* ShowWesternName() : void
+
+
+Instance
+An instance is the realization of attributes and methods in the computer's memory.
+
+
+One of the most important aspects of Programming with classes is that multiple intances can be created and used in the same program.
+
+
+Storing all of these values together in one larger box can greatly simplify your code, because, for example, you can now pass that whole large box to a function as a parameter, or return it.
+
+Adding Behaviors
+In addition to storing values together than belong together, you can also put the member functions, or methods, that use that data right in the box with them.
+
+ This could be added as a function inside the box by using this function called, GetArea().
+
+
+ Objects within Objects
+In the previous example, all of the member variables had simple types (double or string). But member variables can also have custom types. This is similar to putting another box inside the larger one. 
+
+
+Class - A new custom data type that defines attributes (member variables) and methods. This is like a blueprint to create instances or objects of that class. Example: A Person has given name and family name.
+
+Instance - A variable whose data type is the class. We often use the term Object interchangeably. Example: We can have two instances of the Person class: one for John, and one for Mary.
+
+Instantiate - A verb that means "to create an instance of." Example: We can instantiate the Person class to create a new object.
+
+Method - A member function. Methods are called using "dot notation" with an instance of the class before the dot. Example: person1.GetEasternName()
