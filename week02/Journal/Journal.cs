@@ -29,7 +29,7 @@ public class Journal
          List<string> lines = new List<string>();
          foreach (Entry entry in _entries)
         {
-            lines.Add($"{entry._date}|{entry._promptText}|{entry._entryText}");
+            lines.Add($"{entry._date}\n|{entry._promptText}\n|{entry._entryText}");
         }
 
         File.WriteAllLines(filename, lines);    
