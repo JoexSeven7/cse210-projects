@@ -5,6 +5,8 @@ using System.IO;
 
     class Program
     {
+
+    //Added hint, to the program.it hints some words to the user to help them see if they can remember the rest.
         static void Main(string[] args)
         {
             // Load scriptures from file
