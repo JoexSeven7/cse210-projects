@@ -23,16 +23,16 @@ An instance is the realization of attributes and methods in the computer's memor
 
 One of the most important aspects of Programming with classes is that multiple intances can be created and used in the same program.
 
-
+ 
 Storing all of these values together in one larger box can greatly simplify your code, because, for example, you can now pass that whole large box to a function as a parameter, or return it.
 
 Adding Behaviors
 In addition to storing values together than belong together, you can also put the member functions, or methods, that use that data right in the box with them.
 
- This could be added as a function inside the box by using this function called, GetArea().
+This could be added as a function inside the box by using this function called, GetArea().
 
 
- Objects within Objects
+Objects within Objects
 In the previous example, all of the member variables had simple types (double or string). But member variables can also have custom types. This is similar to putting another box inside the larger one. 
 
 
