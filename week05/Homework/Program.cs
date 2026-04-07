@@ -15,8 +15,12 @@ class Program
         assignment2.SetTextBook("Quntitative");
         assignment2.SetProblem("2.3");
 
+        WritingAssignment assignment3 = new WritingAssignment ("Mike", "drop","move");
+        assignment3.SetTitle("Quntitative");
+
         Console.WriteLine(assignment1.GetSummary());
         Console.WriteLine(assignment2.GetHomeworkList());
+        Console.WriteLine(assignment3. GetWritingInformation());
 
         
     }
