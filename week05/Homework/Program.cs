@@ -16,7 +16,7 @@ class Program
         assignment2.SetProblem("2.3");
 
         WritingAssignment assignment3 = new WritingAssignment ("Mike", "drop","move");
-        assignment3.SetTitle("Quntitative");
+        assignment3.SetTitle("The lonely road");
 
         Console.WriteLine(assignment1.GetSummary());
         Console.WriteLine(assignment2.GetHomeworkList());
