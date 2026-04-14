@@ -12,7 +12,7 @@ class Program
         Console.WriteLine($"Rectangle - Color: {rectangle.GetColor()}, Area: {rectangle.GetArea()}");
 
         Circle circle = new Circle("green", 3);
-        Console.WriteLine($"Circle - Color: {circle.GetColor()}, Area: {circle.GetArea():F2}");
+        Console.WriteLine($"Circle - Color: {circle.GetColor()}, Area: {circle.GetArea()}");
 
         List<Shape> shapes = new List<Shape>();
         shapes.Add(square);
@@ -22,7 +22,7 @@ class Program
         Console.WriteLine("\nShapes from list:");
         foreach (Shape shape in shapes)
         {
-            Console.WriteLine($"Color: {shape.GetColor()}, Area: {shape.GetArea():F2}");
+            Console.WriteLine($"Color: {shape.GetColor()}, Area: {shape.GetArea()}");
         }
     }
 }
