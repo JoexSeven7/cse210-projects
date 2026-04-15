@@ -233,7 +233,7 @@ class Program
         {
             if (parts.Length >= 7)
             {
-                var goal = new ChecklistGoal(parts[0], parts[1], int.Parse(parts[2]), int.Parse(parts[3]), int.Parse(parts[4]));
+                ChecklistGoal goal = new ChecklistGoal(parts[0], parts[1], int.Parse(parts[2]), int.Parse(parts[3]), int.Parse(parts[4]));
                 return goal;
             }
         }
